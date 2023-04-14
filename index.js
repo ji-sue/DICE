@@ -54,102 +54,159 @@ d6 = "d6.png"
 // step1: winner
 // rock wins?
 switch (true) {
+
     case (randomImage === d1 && randomImage1 === d2):
         document.querySelector("h1").innerHTML = "Dice 2 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d1 && randomImage1 === d3):
         document.querySelector("h1").innerHTML = "Dice 3 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d1 && randomImage1 === d4):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d1 && randomImage1 === d5):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d1 && randomImage1 === d6):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d2 && randomImage1 === d3):
         document.querySelector("h1").innerHTML = "Dice 3 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d2 && randomImage1 === d4):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d2 && randomImage1 === d5):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d2 && randomImage1 === d6):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d3 && randomImage1 === d4):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d3 && randomImage1 === d5):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d3 && randomImage1 === d6):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d4 && randomImage1 === d5):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d4 && randomImage1 === d6):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
     case (randomImage === d5 && randomImage1 === d6):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<strike>PLAYER 1 LOST</strike>";
+        document.querySelector(".p2").innerHTML = "<b>PLAYER 2 WINS</b>";
         break;
         //=========================================================
         case (randomImage === d2 && randomImage1 === d1):
         document.querySelector("h1").innerHTML = "Dice 2 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d3 && randomImage1 === d1):
         document.querySelector("h1").innerHTML = "Dice 3 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d4 && randomImage1 === d1):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d5 && randomImage1 === d1):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d6 && randomImage1 === d1):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d3 && randomImage1 === d2):
         document.querySelector("h1").innerHTML = "Dice 3 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d4 && randomImage1 === d2):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d5 && randomImage1 === d2):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d6 && randomImage1 === d2):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d4 && randomImage1 === d3):
         document.querySelector("h1").innerHTML = "Dice 4 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d5 && randomImage1 === d3):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d6 && randomImage1 === d3):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d5 && randomImage1 === d4):
         document.querySelector("h1").innerHTML = "Dice 5 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d6 && randomImage1 === d4):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     case (randomImage === d6 && randomImage1 === d5):
         document.querySelector("h1").innerHTML = "Dice 6 Wins!";
+        document.querySelector(".p1").innerHTML = "<b>PLAYER 1 WINS</b>";
+        document.querySelector(".p2").innerHTML = "<strike>PLAYER 2 LOST</strike>";
         break;
     default:
         document.querySelector("h1").innerHTML = "DRAW!";
         break;
 }
-
-
-
-
